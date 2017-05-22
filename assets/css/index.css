@@ -1,0 +1,16 @@
+#mainHeader {
+    background-image: url("../images/header.png");
+    margin-top: 2%;
+    width: 100%;
+    height: 900px;
+}
+
+.mainText {
+    font-family: 'Raleway';
+    font-size: 2em;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    top: 20%;
+}

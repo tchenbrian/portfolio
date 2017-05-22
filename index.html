@@ -4,45 +4,67 @@
 <meta charset="utf-8">
 <title>Brian Tchen: Web Portfolio</title>
 <link type="text/css" rel="stylesheet" href="assets/css/mystyle.css" media="screen">
+<link type="text/css" rel="stylesheet" href="assets/css/nav.css" media="screen">
+<link type="text/css" rel="stylesheet" href="assets/css/index.css" media="screen">
+<link rel="shortcut icon" href="../HappinessProject/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" type ="text/css" href="../HappinessProject/styles/style.css">
+    <link rel="stylesheet" type ="text/css" href="../HappinessProject/styles/index.css">
+    <link rel="stylesheet" type ="text/css" href="../HappinessProject/styles/nav.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Roboto:200,300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kameron" rel="stylesheet">
 </head>
 
 <body>  
     <h2> Brian Tchen's Web Portfolio</h2>
-    <div id="menu">
-        <ul style="clear:left">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Me</a></li>
-            <li><a href="works.html">Works</a></li>
-            <li><a href="studioC.html">Studio C</a></li>
-            <li><a href="capstone.html">Capstone</a></li>
-            <li><a href="contact.html">Contact</a></li>
-		</ul> 
-		</div>
+    <div id="mobile-header">
+    <img src="images/hamburger_menu.png" id="mobile-icon" onclick="displayNav()">
+    <img src="assets/images/logo.png" width="287px" height="135px">
+    </div>
+    <nav>
+        <ul class="nav_ul" id="mobile-nav">
+            <li class="nav_li" id="nav-one"><a href="index.html">Home</a></li>
+            <li class="nav_li" id="nav-two"><a href="about.html">About</a></li>
+            <li class="nav_li" id="nav-three"><a href="works.html">Works</a></li>
+            <li class="nav_li" id="nav-four"><a href="studioC.html">Studio C</a></li>
+            <li class="nav_li" id="nav-five"><a href="capstone.html">Capstone</a></li>
+            <li class="nav_li" id="nav-six"><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <nav>
+        <ul class="nav_ul" id="desktop-nav">
+            <img src="assets/images/logo.png">
+           <li class="nav_li" id="nav-one"><a href="index.html">Home</a></li>
+            <li class="nav_li" id="nav-two"><a href="about.html">About</a></li>
+            <li class="nav_li" id="nav-three"><a href="works.html">Works</a></li>
+            <li class="nav_li" id="nav-four"><a href="studioC.html">Studio C</a></li>
+            <li class="nav_li" id="nav-five"><a href="capstone.html">Capstone</a></li>
+            <li class="nav_li" id="nav-six"><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    
+<div class="header" id="mainHeader">
 
+    <h1 class="mainText" id="story">Our Story</h1>
+    
+    <h2 class="columnText">The Happiness Project is committed to assisting students and young adults throughout the world in addressing internal conflicts and ultimately helping them find a path to happiness. Adolescents often raise questions concerning self-identity, insecurities, and other personal issues. With personality quizzes to inspirational stories, our project will help bring a community together with common goals and relatable experiences.</h2>
+
+    <a href="about.html"><h2 class="info" id="info-one">Learn More</h2></a>
+    
+</div>
+    
     <img src="assets/images/banner.png" style="margin-left:22em" >
-
     
     <h1>let's design together.</h1>
 
     <h2>Greetings! My name is Brian Tchen. I design and develop websites.</h2>
     
-
-
-    
-    
-    
-    
-       
-    
+<footer>
+    <p id="footerText">&copy; 2017 The Happiness Project</p>
+</footer>
 </body>
 </html>
-
-<!--
-To-Do List:
-Index: Add works link, fix positioning
-About: fix positioing
-Capstone / Studio C: Add appropriate images
-Works: fix positioning, add descriptions, optimize imaegs
-
-
- -->
