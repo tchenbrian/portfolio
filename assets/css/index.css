@@ -1,8 +1,15 @@
+#introSection {
+    margin-bottom: 10%;
+}
+
 #mainHeader {
-    background-image: url("../images/header.png");
     margin-top: 2%;
     width: 100%;
     height: 900px;
+}
+
+#headerImage {
+    z-index: -1;
 }
 
 .mainText {
@@ -13,4 +20,46 @@
     letter-spacing: 2px;
     position: relative;
     top: 20%;
+}
+
+#story {
+    font-weight: 400;
+    font-family: 'Montserrat';
+    font-size: 4em;
+    position: relative;
+    left: 41%;
+}
+
+.columnText {
+    font-family: 'Raleway', serif;
+    font-weight: 300;
+    color: #333;
+    text-transform: none;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+    width: 60%;
+    position: relative;
+    top: 30%;
+    left: 20%;
+}
+
+.info {
+    font-family: 'Open Sans';
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+    width: 10%; 
+    padding: 0.4em;
+    position: relative;
+    margin-top: 20%;
+    left: 44%;
+    color: #fff;
+    background-color: #3399FF;
+}
+
+.info:hover {
+    background-color: #fff;
+    color:#3399FF;
 }

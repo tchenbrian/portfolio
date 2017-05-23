@@ -26,7 +26,7 @@ nav li {
 }
 
 nav li a {
-	color: #6B7B8F;
+	color: #6A6E72;
     font-family: 'Open Sans';
 	text-decoration: none;
 	display: inline-block;
@@ -34,7 +34,13 @@ nav li a {
 }
 
 nav li a:hover {
-    color: #f5964a;
+    color: #3366CC;
+}
+
+#banner {
+    position: relative;
+    left: 23%;
+    margin-top: 5%;
 }
 
 .hamburger-menu, .hamburger-button {
@@ -85,7 +91,8 @@ nav li a:hover {
     
     #mobile-logo {
         display: block;
-        margin: 1% 0 0 2%;
+        margin: 1% 0 0 10%;
+        width: 20%;
     }
     
     nav {
