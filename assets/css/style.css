@@ -16,11 +16,13 @@ a {
     text-decoration: none;
 }
 
-body {
+html, body {
     width: 100%;
     margin: 0;
+    padding: 0;
     background-color:#EDEFF2;  
     font-family: 'Raleway';
+    height: 100%;
 }
 
 h1#introText {
