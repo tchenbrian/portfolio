@@ -6,10 +6,7 @@
     margin-top: 2%;
     width: 100%;
     height: 900px;
-}
-
-#headerImage {
-    z-index: -1;
+    background-image: url("../images/header.png");
 }
 
 .mainText {
@@ -62,4 +59,104 @@
 .info:hover {
     background-color: #fff;
     color:#3399FF;
+}
+
+#quadraCol {
+    padding-bottom: 30%;
+    margin-left: 3%;
+    margin-top: 5%;
+    width: 100%;
+}
+
+.col {
+    background-color: #3366CC;
+    width: 16.5%;
+    padding: 0;
+    display: block;
+    float: left;
+    margin-right: 4em;
+    margin-left: 3em;
+}
+
+.colDescription {
+    margin-left: 5%;
+    width: 90%;
+    text-align: left; 
+}
+
+/* quadraCol */
+
+.mainText {
+    font-family: 'Raleway';
+    font-size: 2em;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    top: 20%;
+}
+
+#learnAbout {
+    margin-bottom: 10%;
+    left: 42%;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    background-color: #3399FF;
+    display: block;
+    float: left;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width:80%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  position: absolute;
+  transition: .5s ease;
+  opacity: 0;
+  top: 63%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.container:hover .image {
+  opacity: 0.2;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  color: #89531c;
+  font-size: 1.2em;
+  line-height: 1.9em;
+  width: 15em;
+  font-weight: 200;
+  position: relative;
+}
+
+.readMoreContainer {
+    position: relative;
+    margin-bottom: 6.5%;
+}
+
+.readMore {
+    display: inline-block;
+    width: 100px;
+    position: relative;
+    border: 1px solid #89531c;
+    left: 60%;
+    padding: 0.2em;
+    text-align: center;
+    border-radius: 15px;
 }

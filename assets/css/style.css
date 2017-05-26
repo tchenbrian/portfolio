@@ -23,7 +23,6 @@ body {
     font-family: 'Raleway';
 }
 
-
 h1#introText {
     text-align: center;
     margin-top: 0.7em;
@@ -58,75 +57,14 @@ h3 {
     text-align: center;
 }
 
-.TabsH1 {
+/* About */
+
+#aboutHeader {
     margin-top: 2em;
-    color:#6296b1;
+    color:#2B357F;
     font-weight:bold;
     font-size:5em;
     text-align:center; 
-}
-    
-/* About */
-
-#aboutH2 {
-  margin-top:1.5em;
-  text-align:center;
-}
-
-#background {
-    border: 1px white dashed;
-}
-
-#backgroundPara {
-    color: black;
-    font-size: 1.5em;
-    max-width: 40em;
-    position: relative;
-    margin-left: 2em;
-    line-height:1.5em;
-}
-
-#backgroundH2 {
-    color: #646473;
-    max-width: 200px;
-    position: relative;
-    margin-left:0.9em;
-    margin-bottom:0em;
-}
-
-#experienceH2 {
-    color: #646473;
-    max-width: 200px;
-    position: relative;
-    margin-left: 0.6em;
-    margin-bottom:0em;
-}
-
-#experiencePara {
-    color: black;
-    font-size: 1.5em;
-    max-width: 40em;
-    position: relative;
-    margin-left: 2em;
-    line-height:1.5em;
-
-}
-
-#interestsH2 {
-    max-width: 200px;
-    position: relative;
-    color: #646473;
-    margin-left: 0.2em;
-    margin-bottom:0em;
-
-}
-
-#interestsPara{
-    color: black;
-    font-size: 1.5em;
-    max-width: 40em;
-    margin-left: 2em;
-    line-height:1.5em;
 }
 
 #aboutH1 {
@@ -137,6 +75,25 @@ h3 {
     font-size:8em;
     margin-left: 0.4em;
 }
+
+.infoHeader {
+    color: #646473;
+    text-align: left;
+    left: 2%;
+    position: relative;
+    margin-left:0.9em;
+    margin-bottom:0em;
+}
+
+.infoPara {
+    color: black;
+    font-size: 1.5em;
+    max-width: 40em;
+    position: relative;
+    margin-left: 2em;
+    line-height:1.5em;
+}
+
 
 /* Studio C */
 
@@ -166,12 +123,6 @@ h3 {
     color:#6296b1;
     font-weight:bold;
     font-size:4em;
-}
-
-#header {
-    background-color:#6296b1;
-    width:100%;
-    height:200px;
 }
 
 /* Works */
@@ -214,11 +165,11 @@ h3 {
 footer {
     border: 0;
     display: block;
+    top: 10em;
     padding: 20px 20px 0px 20px;
     color: #fff;
     background-color: #2B357F;
     position: relative;
-    top: 90em;
     height: 115px;
     width: 100%;
     bottom: 0;
