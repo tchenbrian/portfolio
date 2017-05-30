@@ -18,8 +18,8 @@ a {
 
 html, body {
     width: 100%;
-    margin: 0;
-    padding: 0;
+    margin:0;
+    padding:0;
     background-color:#EDEFF2;  
     font-family: 'Raleway';
     height: 100%;
@@ -61,11 +61,16 @@ h3 {
 
 /* About */
 
-#aboutHeader {
-    margin-top: 2em;
+#about-wrapper {
+    margin: 10% 2% 0 0;
+}
+
+.pageHeader {
+    font-family: 'Montserrat';
+    margin: 2em 0.5em 0 0;
     color:#2B357F;
     font-weight:bold;
-    font-size:5em;
+    font-size: 4em;
     text-align:center; 
 }
 
@@ -80,20 +85,21 @@ h3 {
 
 .infoHeader {
     color: #646473;
-    text-align: left;
-    left: 2%;
+    font-family: 'Montserrat';
+    text-align: center;
+    margin: 0 auto;
     position: relative;
-    margin-left:0.9em;
-    margin-bottom:0em;
 }
 
 .infoPara {
+    font-weight: 200;
     color: black;
+    text-align: center;
+    margin: 2em auto;
     font-size: 1.5em;
     max-width: 40em;
     position: relative;
-    margin-left: 2em;
-    line-height:1.5em;
+    line-height:1.8em;
 }
 
 
@@ -119,12 +125,12 @@ h3 {
 
 /* Contact */
 
-#contactH2 {
+.contactText {
     text-align: center;
-    margin-top: 4em;
-    color:#6296b1;
+    margin: 2em 0;
+    color:#3366CC;
     font-weight:bold;
-    font-size:4em;
+    font-size:2em;
 }
 
 /* Works */
@@ -136,9 +142,8 @@ h3 {
 }
 
 #WorksH2 {
-    margin-top:4em;
+    margin-top:2em;
     text-align: center; 
-    max-width:30em;
     margin-left:14em;
 }
 

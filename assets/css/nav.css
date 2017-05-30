@@ -105,7 +105,7 @@ nav li a:hover {
     }
     
     nav li a {
-        text-align: left
+        width: 10em;
     }
     
 }
