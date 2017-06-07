@@ -65,8 +65,10 @@
     margin-top: 17%;
 }
 
+/* quadraCol */
+
 #quadraCol {
-    padding-bottom: 30%;
+    padding-bottom: 20%;
     margin-left: 3%;
     margin-top: 5%;
     width: 100%;
@@ -87,8 +89,6 @@
     width: 90%;
     text-align: left; 
 }
-
-/* quadraCol */
 
 .mainText {
     font-family: 'Raleway';
@@ -158,11 +158,346 @@
     display: inline-block;
     width: 100px;
     position: relative;
-    border: 1px solid #89531c;
+    border: 1px solid #2B357F;
     left: 60%;
     padding: 0.2em;
     text-align: center;
     border-radius: 15px;
 }
 
+
+@media only screen and (min-width: 769px) and (max-width: 1500px) {
+    
+    #contact {
+    top: 5%;
+    position: relative;
+    left: 10%;
+    padding: 10% 0 30% 0;
+    height: 300px;
+}
+    .text {
+  color: #89531c;
+  font-size: 1.2em;
+  line-height: 1.9em;
+  width: 14em;
+  font-weight: 200;
+  position: relative;
+    }
+    
+    .col {
+    background-color: #e0ab75;
+    width: 20%;
+    padding: 0;
+    display: block;
+    float: left;
+    margin-right: 1em;
+    margin-left: 2em;
+    }
+    
+    .readMoreContainer {
+    position: relative;
+    margin-bottom: 6.5%;
+    }
+
+    .readMore {
+    font-size: 1em;
+    display: inline-block;
+    width: 100px;
+    position: relative;
+    border: 1px solid #89531c;
+    margin-top: 20%;
+    left: 40%;
+    padding: 0.2em;
+    text-align: center;
+    border-radius: 15px;
+    }   
+    
+    .info {
+        margin-top: 25%;
+        width: 15%;
+        left: 41%;
+    }
+    
+    #quizInfo {
+        margin-top: 6%;
+        left: 42%;
+    }
+    
+    #shopInfo {
+        margin-top: 6%;
+        left: 42%;
+    }
+    
+    
+    div#envelope {
+        width: 80%;
+    }
+    
+    #about {
+    margin: 4em 0 0 5em;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    
+    #contact {
+        height: 400px;
+        left: 0%;
+    }
+    
+    div#envelope {
+        float: none;
+        width: 100%;
+    }
+    
+    #story {
+        top: 10%;
+        left: 20%;
+    }
+    
+    .columnText {
+        width: 90%;
+        line-height: 2em;
+        font-size: 1.6em;
+        top: 10%;
+        left: 5%;
+        text-align: justify;
+    }
+    
+    #info-one {
+        font-size: 1.2em;
+        width: 60%; 
+        padding: 0.4em;
+        position: relative;
+        margin-top: 20%;
+        left: 18%;
+    }
+    
+    #pencil {
+        position: relative;
+        margin-top: 10%;
+        left: 5%;
+        float: none;
+        width: 80%;
+    }
+    
+    #learnAbout {
+    margin-bottom: 10%;
+    left: 35%;
+    }
+    
+    #quizDesc, #shopDesc {
+    text-align: left;
+    width: 90%;
+    float: none;
+    margin-top: 10%;
+    left: 5%;
+    height: 300px;
+    }
+    
+    #quizInfo {
+        width: 60%;
+        left: 18%;
+    }
+    
+    #banner {
+        display: none;   
+    }
+    
+    .col {
+    width: 70%;
+    float: none;
+    margin-left: 5em;
+    }
+
+    .colDescription {
+        margin-left: 5%;
+        width: 100%;
+        letter-spacing: 0.8px;
+    }
+    
+    .text {
+    font-size: 1.7em;
+    line-height: 1.9em;
+    width: 15em;
+    font-weight: 200;
+    position: relative;
+    }   
+    
+    .colTitle {
+        font-size: 1.8em;  
+        padding: 1em 0;
+    }
+
+    .container {
+    position: relative;
+    position: relative;
+    width: 100%;
+    display: block;
+    float: none;
+    }
+    
+    .readMoreContainer {
+    position: relative;
+    margin-bottom: 6.5%;
+    }
+
+    .readMore {
+    font-size: 1.5em;
+    display: inline-block;
+    width: 200px;
+    position: relative;
+    margin-top: 20%;
+    left: 40%;
+    padding: 0.2em;
+    text-align: center;
+    border-radius: 15px;
+    }   
+    
+    .aboutContainer {
+        position: relative;
+        left: -8%;   
+    }
+    
+}
+
+@media only screen and (max-width: 360px) {
+    
+    body {
+        letter-spacing: 0;
+    }
+    
+    #mainHeader {
+        width: 100%;
+        height: 100%;
+    }
+    
+    #contact {
+        height: 400px;
+        left: 0%;
+    }
+    
+    div#envelope {
+        float: none;
+        width: 100%;
+    }
+    
+    #story {
+        top: 15%;
+        font-size: 1em;
+    }
+    
+    .columnText {
+        width: 90%;
+        line-height: 2em;
+        top: 10%;
+        left: 5%;
+        text-align: justify;
+    }
+    
+    #info-one {
+        font-size: 1.2em;
+        width: 60%; 
+        padding: 0.4em;
+        position: relative;
+        margin-top: 10%;
+        left: 18%;
+    }
+    
+    #pencil {
+        position: relative;
+        margin-top: 10%;
+        left: 5%;
+        float: none;
+        width: 80%;
+    }
+    
+    #quizDesc, #shopDesc {
+    text-align: left;
+    width: 90%;
+    float: none;
+    margin-top: 10%;
+    left: 5%;
+    height: 300px;
+    }
+    
+    #quizInfo {
+        width: 60%;
+        left: 18%;
+    }
+    
+    .col {
+    width: 70%;
+    float: none;
+    margin-left: 3em;
+    }
+
+    .colDescription {
+        margin-left: 5%;
+        width: 100%;
+        letter-spacing: 0.8px;
+    }
+    
+    .columnBody {
+    padding: 0 0 5% 0;
+    height: 250px;
+}
+    
+    .text {
+    font-size: 1em;
+    line-height: 2.5em;
+    width: 15em;
+    font-weight: 200;
+    position: relative;
+    }   
+    
+    .colTitle {
+        font-size: 1.8em;  
+        padding: 1em 0;
+    }
+
+    .container {
+    position: relative;
+    position: relative;
+    width: 100%;
+    background-color: #e0ab75;
+    display: block;
+    float: none;
+    }
+    
+    .readMoreContainer {
+    position: relative;
+    margin-bottom: 6.5%;
+    }
+
+    .readMore {
+    font-size: 1em;
+    display: inline-block;
+    width: 170px;
+    position: relative;
+    border: 1px solid #89531c;
+    margin-top: 20%;
+    left: 20%;
+    padding: 0.2em;
+    text-align: center;
+    border-radius: 15px;
+    }   
+    
+    .aboutContainer {
+        position: relative;
+        left: -8%;   
+    }
+    
+    #submit {
+        width: 100%;
+    }
+    
+    #about {
+        margin: 1em 0 0 3em;
+        max-width: 90%;
+    }
+
+    
+}
 

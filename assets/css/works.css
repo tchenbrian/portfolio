@@ -1,5 +1,15 @@
 /* Artwork / Inspiration Wall */
 
+#worksSelect {
+    position: relative;
+    margin-top: 5%;
+    left: 45%;
+    padding: 5px 8px;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+}
+
 /* Lightbox */
 
 img.hover-shadow, img.demo {
@@ -9,7 +19,7 @@ img.hover-shadow, img.demo {
 
 .sliderImage {
     height: 520px;
-    width: 1200px;
+    width: 1000px;
 }
 
 .row {
@@ -55,7 +65,7 @@ img.hover-shadow, img.demo {
   margin: auto;
   padding: 0;
   width: 90%;
-  max-width: 1200px;
+  max-width: 1000px;
 }
 
 /* The Close Button */
@@ -79,6 +89,7 @@ img.hover-shadow, img.demo {
   display: none;
   padding-bottom: 10%;
 }
+
 
 .sliderTitle {
     font-size: 2em;
