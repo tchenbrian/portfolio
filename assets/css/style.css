@@ -103,7 +103,7 @@ h3 {
     line-height:1.8em;
 }
 
-.award {
+p.award {
     font-weight: 200;
     color: #3366CC ;
     text-align: center;
@@ -137,7 +137,7 @@ h3 {
 
 /* Capstone */
 
-.works-image {
+img.works-image {
     margin: 2.1em 0 0 30%; 
     width: 40%;
 }
